@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --boxShadow: 0 1px 2px rgba(0,0,0,.9), 0 0px 2px rgba(0,0,0,.9);
+}
+
+
+@layer base {
+    html,body,#root{
+        @apply h-full bg-backdrop text-white antialiased
+    }
+    #root {
+        @apply flex flex-col
+    }
+    .wrapper {
+        height: 100%;
+        @apply flex
+    }
+    .topbar {
+        box-shadow: var(--boxShadow);
+    }
+}
