@@ -1,8 +1,16 @@
+import Content from "feature/Content";
+import Sidebar from "feature/Sidebar/Sidebar";
+import Topbar from "feature/Topbar/Topbar";
+
 function App() {
   return (
-    <div className="App">
-      app
-    </div>
+    <>
+      <Topbar />
+      <div className="wrapper">
+        <Sidebar />
+        <Content />
+      </div>
+    </>
   );
 }
 
