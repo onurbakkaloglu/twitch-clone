@@ -9,6 +9,9 @@ module.exports = {
         topbar: '#18181b',
         sidebar: '#1f1f23',
         backdrop: '#0e0e10',
+        activeStatusIndicator: '#eb0400',
+        showMore: '#bf94ff',
+        channelHover: '#26262c'
       },
       zIndex: {
         '1000': '1000',
