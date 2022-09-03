@@ -1,3 +1,4 @@
+import { Icon } from "components/Icon/icon";
 import { generateUIID, numberToViever } from "utils";
 
 function Sidebar() {
@@ -57,7 +58,7 @@ function Sidebar() {
         <aside className="w-60 flex flex-shrink-0 flex-col bg-sidebar pl-2 pt-2">
             <div className="flex items-center justify-between mb-2">
                 <h2 className="text-sm">RECOMMENDED CHANNELS</h2>
-                <svg className="w-5 h-5 mr-3" fill="currentColor"><g><path d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path></g></svg>
+                <Icon name={'collapse'} />
             </div>
 
             {
