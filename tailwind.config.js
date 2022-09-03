@@ -15,6 +15,12 @@ module.exports = {
       },
       zIndex: {
         '1000': '1000',
+      },
+      flexGrow: {
+        '2': 2
+      },
+      flexShrink: {
+        '2': 2
       }
     },
   },
