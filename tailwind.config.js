@@ -13,7 +13,7 @@ module.exports = {
         showMore: '#bf94ff',
         channelHover: '#26262c',
         topbartextHover:'#bf94ff',
-        toparIconHover:'#464649'
+        topbarIconHover:'#464649'
       },
       zIndex: {
         '1000': '1000',
