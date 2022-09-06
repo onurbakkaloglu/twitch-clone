@@ -15,6 +15,14 @@ module.exports = {
         topbartextHover:'#bf94ff',
         topbarIconHover:'#464649'
       },
+      backgroundColor: {
+        inputBg: "rgba(255, 255, 255, 0.2)",
+        secondaryButton: "rgba(255, 255, 255, 0.15)"
+      },
+      borderColor: {
+        borderColor: "#464649",
+        borderFocusColor: "#a970ff"
+      },
       zIndex: {
         '1000': '1000',
       },

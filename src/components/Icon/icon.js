@@ -44,7 +44,7 @@ const Prime = ({size}) => {
 
 const Notification = ({size}) => {
     return (
-        <svg fill="currentColor" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScIconSVG-sc-1bgeryd-1 ifdSJl">
+        <svg fill="currentColor" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
             <g>
                 <path d="M4 3h12l2 4v10H2V7l2-4zm.236 4H8v1a1 1 0 001 1h2a1 1 0 001-1V7h3.764l-1-2H5.236l-1 2zM16 9h-2.17A3.001 3.001 0 0111 11H9a3.001 3.001 0 01-2.83-2H4v6h12V9z"></path>
             </g>
@@ -54,7 +54,7 @@ const Notification = ({size}) => {
 
 const Whisper = ({size}) => {
     return (
-        <svg fill="currentColor" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScIconSVG-sc-1bgeryd-1 ifdSJl">
+        <svg fill="currentColor" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
             <g>
                 <path d="M7.828 13L10 15.172 12.172 13H15V5H5v8h2.828zM10 18l-3-3H5a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2l-3 3z"></path>
             </g>
