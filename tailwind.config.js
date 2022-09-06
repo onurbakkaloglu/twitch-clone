@@ -13,11 +13,14 @@ module.exports = {
         showMore: '#bf94ff',
         channelHover: '#26262c',
         topbartextHover:'#bf94ff',
-        topbarIconHover:'#464649'
+        topbarIconHover:'#464649',
+        liveCardDescription: "#adadb8"
       },
       backgroundColor: {
         inputBg: "rgba(255, 255, 255, 0.2)",
-        secondaryButton: "rgba(255, 255, 255, 0.15)"
+        secondaryButton: "rgba(255, 255, 255, 0.15)",
+        liveBg: "#eb0400",
+        viewerBg: "rgba(0,0,0,.6);"
       },
       borderColor: {
         borderColor: "#464649",
