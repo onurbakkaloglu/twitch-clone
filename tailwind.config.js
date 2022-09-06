@@ -13,7 +13,15 @@ module.exports = {
         showMore: '#bf94ff',
         channelHover: '#26262c',
         topbartextHover:'#bf94ff',
-        toparIconHover:'#464649'
+        topbarIconHover:'#464649'
+      },
+      backgroundColor: {
+        inputBg: "rgba(255, 255, 255, 0.2)",
+        secondaryButton: "rgba(255, 255, 255, 0.15)"
+      },
+      borderColor: {
+        borderColor: "#464649",
+        borderFocusColor: "#a970ff"
       },
       zIndex: {
         '1000': '1000',
