@@ -1,6 +1,8 @@
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 import TopbarButton from "components/Button/TopbarButton";
 import { Icon } from "components/Icon/icon";
-import { useState } from "react";
 import { FiSearch } from 'react-icons/fi';
 import { IoClose } from 'react-icons/io5';
 
@@ -14,21 +16,21 @@ function Topbar() {
         <nav className="topbar h-[3.125rem] bg-topbar z-1000">
             <div className="flex items-stretch w-full h-full">
                 <div className="flex flex-grow shrink-2 w-full items-center">
-                    <a href="#" className="inline-flex p-2 h-full items-center">
+                    <NavLink to="/" className="inline-flex p-2 h-full items-center" >
                         <Icon name={'logo'} size={40} />
-                    </a>
+                    </NavLink>
                     <div className="flex h-full items-center">
                         {isLogin && (
                             <div className="flex h-full flex-col pl-4 pr-4 self-center">
-                                <a href="#" className="flex items-center text-center h-full text-xl hover:text-topbartextHover">
+                                <NavLink to="/directory/following" className="flex items-center text-center h-full text-xl hover:text-topbartextHover" >
                                     Followed
-                                </a>
+                                </NavLink>
                             </div>
                         )}
                         <div className="flex h-full flex-col pl-4 pr-4 self-center">
-                            <a href="#" className="flex items-center text-center h-full text-xl hover:text-topbartextHover">
+                            <NavLink to="/directory" className="flex items-center text-center h-full text-xl hover:text-topbartextHover" >
                                 Browse
-                            </a>
+                            </NavLink>
                         </div>
                         <TopbarButton svg={'more'} />
                     </div>
@@ -51,7 +53,7 @@ function Topbar() {
                     <TopbarButton svg={'notification'} />
                     <TopbarButton svg={'whisper'} />
                     <div className="w-8 h-8 mx-4">
-                        <img className="rounded-full" src="https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-70x70.png"/>
+                        <img className="rounded-full" src="https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-70x70.png" alt=""/>
                     </div>
                 </div>
             </div>

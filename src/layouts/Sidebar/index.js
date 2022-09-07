@@ -1,11 +1,13 @@
 import { Icon } from "components/Icon/icon";
-import { generateUIID, numberToViever } from "utils";
+
+import { generateUIID } from "utils/generateUUID";
+import { numberToViewer } from "utils/numberToViewer";
 
 function Sidebar() {
 
     const users = [
         {
-            id: generateUIID(),
+            id: generateUIID,
             username: 'wtcN',
             avatar: 'https://static-cdn.jtvnw.net/jtv_user_pictures/28b40271-8bb1-4a27-9ad7-8e9a55e06180-profile_image-70x70.png',
             category: 'Sadece Sohbet',
@@ -80,7 +82,7 @@ function Sidebar() {
                                 <div className="flex items-center">
                                     <div className="bg-activeStatusIndicator w-3 h-3 rounded-full inline-block relative"></div>
                                     <div className="ml-2">
-                                        <span className="text-sm">{numberToViever(user.viewers)}</span>
+                                        <span className="text-sm">{numberToViewer(user.viewers)}</span>
                                     </div>
                                 </div>
                             </div>
