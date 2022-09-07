@@ -1,7 +1,7 @@
 import TopbarButton from "components/Button/TopbarButton";
-import Slider from "./Slider/Slider";
+import Slider from "components/Slider";
 
-function Content() {
+export default function Home() {
     return (
         <main className="flex-auto overflow-auto">
             <Slider />
@@ -34,12 +34,10 @@ function Content() {
                     </div>
                     </div>                 
                     <div>
-                    <TopbarButton svg={'more'} />
+                        <TopbarButton svg={'more'} />
                     </div>
                 </div>
             </div>
         </main>
-    );
+    )
 }
-
-export default Content;
