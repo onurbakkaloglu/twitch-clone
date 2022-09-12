@@ -34,6 +34,9 @@ module.exports = {
       },
       flexShrink: {
         '2': 2
+      },
+      boxShadow: {
+        streamShadow: '-15px 15px 0px -6px #bf94ff',
       }
     },
   },
