@@ -1,5 +1,6 @@
 import TopbarButton from "components/Button/TopbarButton";
 import GameCard from "components/GameCard";
+import SelectorCard from "components/SelectorCard";
 import Slider from "components/Slider";
 
 export default function Home() {
@@ -41,6 +42,8 @@ export default function Home() {
             </div>
 
             <GameCard />
+
+            <SelectorCard/>
         </main>
     )
 }

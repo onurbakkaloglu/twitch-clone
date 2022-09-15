@@ -20,7 +20,9 @@ module.exports = {
         inputBg: "rgba(255, 255, 255, 0.2)",
         secondaryButton: "rgba(255, 255, 255, 0.15)",
         liveBg: "#eb0400",
-        viewerBg: "rgba(0,0,0,.6);"
+        viewerBg: "rgba(0,0,0,.6);",
+        selectorCardBg: "#5c16c5",
+        selectorCardBgHover: "#772ce8"
       },
       borderColor: {
         borderColor: "#464649",
