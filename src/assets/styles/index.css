@@ -9,7 +9,7 @@
 
 @layer base {
     html,body,#root{
-        @apply h-full bg-backdrop text-white antialiased
+        @apply h-full bg-backdrop text-white antialiased overflow-hidden
     }
     #root {
         @apply flex flex-col
