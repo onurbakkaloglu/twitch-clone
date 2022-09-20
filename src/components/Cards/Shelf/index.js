@@ -2,6 +2,7 @@ import TopbarButton from "components/Button/TopbarButton";
 
 function ShelfCard(){
     return (
+        <div className="grid grid-cols-5">
         <div className="max-w-xs ml-4">
                 <div className="duration-300 hover:translate-x-1 hover:duration-300 hover:-translate-y-1 hover:shadow-streamShadow hover:shadow-topbartextHover">
                     <a className="relative hover:cursor-pointer">
@@ -34,6 +35,7 @@ function ShelfCard(){
                         <TopbarButton svg={'more'} />
                     </div>
                 </div>
+            </div>
             </div>
     )
 }

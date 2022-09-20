@@ -3,11 +3,12 @@ import {numberToViewer} from "utils/numberToViewer";
 
 function GameCard({game}) {
     return (
+        <div className="grid grid-cols-8">
         <div className="max-w-fit ml-4 mt-8 w-[10rem] relative">
             <div className="duration-300 hover:translate-x-1 hover:duration-300 hover:-translate-y-1 hover:shadow-streamShadow hover:shadow-topbartextHover">
                 <a className="relative hover:cursor-pointer">
                     <div>
-                        <img src={game.imgSrc} />
+                        <img className="max-w-[11rem]" src={game.imgSrc} />
                     </div>
                 </a>
             </div>
@@ -24,10 +25,8 @@ function GameCard({game}) {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <TopbarButton svg={'more'} />
-                </div>
             </div>
+        </div>
         </div>
     );
 }
