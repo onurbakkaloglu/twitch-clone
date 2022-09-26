@@ -1,4 +1,5 @@
 import Slider from "components/Slider";
+import ClipCards from "./components/ClipCards";
 import GameCards from "./components/GameCards";
 import SelectorCards from "./components/SelectorCards";
 import ShelfCards from "./components/ShelfCards";
@@ -13,6 +14,9 @@ export default function Home() {
             <GameCards />
 
             <SelectorCards />
+            
+            <ClipCards />
+
         </main>
     )
 }
