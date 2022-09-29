@@ -7,7 +7,7 @@ function ShelfCard({shelf}){
 
     if(isClip == "true"){
         return (
-            <div className="mb-20">
+            <div>
             <div className="max-w-xs ml-4">
                     <div className="duration-300 hover:translate-x-1 hover:duration-300 hover:-translate-y-1 hover:shadow-streamShadow hover:shadow-topbartextHover">
                         <a className="relative hover:cursor-pointer">

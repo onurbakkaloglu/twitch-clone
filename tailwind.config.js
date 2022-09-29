@@ -14,7 +14,8 @@ module.exports = {
         channelHover: '#26262c',
         topbartextHover:'#bf94ff',
         topbarIconHover:'#464649',
-        liveCardDescription: "#adadb8"
+        liveCardDescription: "#adadb8",
+        contentBorderColor: "#ffffff2e"
       },
       backgroundColor: {
         inputBg: "rgba(255, 255, 255, 0.2)",

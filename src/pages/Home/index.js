@@ -1,3 +1,4 @@
+import ShowMoreLine from "components/ShowMoreLine";
 import Slider from "components/Slider";
 import ClipCards from "./components/ClipCards";
 import GameCards from "./components/GameCards";
@@ -11,11 +12,17 @@ export default function Home() {
             
             <ShelfCards />
 
+            <ShowMoreLine />
+
             <GameCards />
+
+            <ShowMoreLine />
 
             <SelectorCards />
             
             <ClipCards />
+
+            <ShowMoreLine />
 
         </main>
     )
