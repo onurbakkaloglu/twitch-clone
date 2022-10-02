@@ -16,7 +16,6 @@ function SelectorCards(){
             {selectors.map((selector) => (
                 <SelectorCard key={selector.id} selector={selector}/>
             ))}
-            
         </div>
     )
 }

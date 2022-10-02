@@ -1,4 +1,5 @@
 import ClipCard from "components/Cards/Shelf";
+import ShowMoreLine from "components/ShowMoreLine";
 import { useEffect, useState } from "react";
 
 function ClipCards(){
@@ -12,11 +13,20 @@ function ClipCards(){
     }, [])
 
     return (
-        <div className="grid grid-cols-5 mt-10">
-           {clips.map((clip) => (
-                <ClipCard key={clip.id} shelf={clip}/>
-            ))}
-        </div>
+        <>
+            {
+                clips.length > 0 && (
+                    <>
+                        <div className="grid grid-cols-5 mt-10">
+                            {clips.map((clip) => (
+                                <ClipCard key={clip.id} shelf={clip}/>
+                            ))}
+                        </div>
+                        <ShowMoreLine />
+                    </>
+                )
+            }
+        </>
     )
 }
 
