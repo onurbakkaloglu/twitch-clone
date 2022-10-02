@@ -1,4 +1,5 @@
 import GameCard from "components/Cards/Game";
+import ShowMoreLine from "components/ShowMoreLine";
 import { useEffect, useState } from "react";
 
 function GameCards(){
@@ -12,11 +13,20 @@ function GameCards(){
     }, [])
 
     return (
-        <div className="flex">
-            {games.map((game) => (
-                <GameCard key={game.id} game={game} />
-            ))}
-        </div>
+        <>
+            {
+                games.length > 0 && (
+                    <>
+                        <div className="flex">
+                            {games.map((game) => (
+                                <GameCard key={game.id} game={game} />
+                            ))}
+                        </div>
+                        <ShowMoreLine />
+                    </>
+                )
+            }
+        </>
     )
 }
 
